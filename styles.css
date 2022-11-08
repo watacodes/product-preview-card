@@ -1,0 +1,28 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+
+@import url(https://fonts.google.com/specimen/Fraunces);
+
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+:root {
+  --primary-bg-color: hsl(30, 38%, 92%);
+}
+
+body {
+  background: var(--primary-bg-color);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
